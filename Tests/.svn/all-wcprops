@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn-ritbus/!svn/ver/22/RITNow/Tests
+END
+AppDelegate.cs
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn-ritbus/!svn/ver/2/RITNow/Tests/AppDelegate.cs
+END
+AssemblyInfo.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn-ritbus/!svn/ver/17/RITNow/Tests/AssemblyInfo.cs
+END
+Tests.csproj
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn-ritbus/!svn/ver/20/RITNow/Tests/Tests.csproj
+END
+CsvReaderTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn-ritbus/!svn/ver/17/RITNow/Tests/CsvReaderTest.cs
+END
+BusDBTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn-ritbus/!svn/ver/21/RITNow/Tests/BusDBTest.cs
+END
+BusDB_GTFS_SQL_Test.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn-ritbus/!svn/ver/22/RITNow/Tests/BusDB_GTFS_SQL_Test.cs
+END
+Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn-ritbus/!svn/ver/2/RITNow/Tests/Info.plist
+END
+LiveArrivalFetcherTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn-ritbus/!svn/ver/2/RITNow/Tests/LiveArrivalFetcherTest.cs
+END
+Main.cs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn-ritbus/!svn/ver/2/RITNow/Tests/Main.cs
+END
+CsvReaderIDataReaderTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn-ritbus/!svn/ver/17/RITNow/Tests/CsvReaderIDataReaderTest.cs
+END
+viewstate.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn-ritbus/!svn/ver/2/RITNow/Tests/viewstate.txt
+END
+CsvReaderMalformedTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn-ritbus/!svn/ver/17/RITNow/Tests/CsvReaderMalformedTest.cs
+END
+CsvReaderSampleData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn-ritbus/!svn/ver/17/RITNow/Tests/CsvReaderSampleData.cs
+END

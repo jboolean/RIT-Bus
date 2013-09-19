@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<BusRoute>
+	<RouteNumber>00</RouteNumber>
+	<RouteName>RIT Inn Express</RouteName>
+	<MetaData>
+		<Updated>2012-12-09T17:00:00</Updated>
+	</MetaData>
+	<ActiveDays>
+		<Weekends>1</Weekends>
+		<Weekdays>1</Weekdays>
+	</ActiveDays>
+	<Timetable>
+		<Stop>
+			<StopId>3382</StopId>
+			<Time>9:30:30</Time>
+		</Stop>
+	</Timetable>
+</BusRoute>

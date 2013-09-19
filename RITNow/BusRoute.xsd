@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="BusRoute" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+	<xs:element name="BusRoute" msdata:IsDataSet="true" msdata:Locale="en-US">
+		<xs:complexType>
+			<xs:choice minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="MetaData">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Version" type="xs:string" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="ActiveDays">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Mondays" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Tuesdays" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Wednesdays" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Thursdays" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Fridays" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Saturdays" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Sundays" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Weekdays" type="xs:boolean" minOccurs="0" />
+							<xs:element name="Exception" type="xs:date" minOccurs="0" />
+							<xs:element name="Addition" type="xs:date" minOccurs="0" />
+							<xs:element name="Holidays" type="xs:boolean" minOccurs="0" />
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Destinations">
+					<xs:complexType>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="Timetable">
+					<xs:complexType>
+					</xs:complexType>
+				</xs:element>
+			</xs:choice>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

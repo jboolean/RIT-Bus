@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn-ritbus/!svn/ver/19/RITNow/RITNow/data/RGRTA_gtfs
+END
+routes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn-ritbus/!svn/ver/19/RITNow/RITNow/data/RGRTA_gtfs/routes.txt
+END
+trips.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn-ritbus/!svn/ver/19/RITNow/RITNow/data/RGRTA_gtfs/trips.txt
+END
+fare_attributes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn-ritbus/!svn/ver/19/RITNow/RITNow/data/RGRTA_gtfs/fare_attributes.txt
+END
+shapes.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn-ritbus/!svn/ver/19/RITNow/RITNow/data/RGRTA_gtfs/shapes.txt
+END
+agency.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn-ritbus/!svn/ver/19/RITNow/RITNow/data/RGRTA_gtfs/agency.txt
+END
+stop_times.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn-ritbus/!svn/ver/19/RITNow/RITNow/data/RGRTA_gtfs/stop_times.txt
+END
+fare_rules.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn-ritbus/!svn/ver/19/RITNow/RITNow/data/RGRTA_gtfs/fare_rules.txt
+END
+stops.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn-ritbus/!svn/ver/19/RITNow/RITNow/data/RGRTA_gtfs/stops.txt
+END
+calendar.txt
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn-ritbus/!svn/ver/19/RITNow/RITNow/data/RGRTA_gtfs/calendar.txt
+END
+calendar_dates.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn-ritbus/!svn/ver/19/RITNow/RITNow/data/RGRTA_gtfs/calendar_dates.txt
+END

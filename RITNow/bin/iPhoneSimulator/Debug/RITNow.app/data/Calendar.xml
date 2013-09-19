@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Holidays>
+	<MetaData>
+		<Updated>2012-12-09T17:00:00</Updated>
+	</MetaData>
+	<Holiday>
+		<StartDate>2012-11-15</StartDate>
+		<EndDate>2012-11-25</EndDate>
+	</Holiday>
+</Holidays>

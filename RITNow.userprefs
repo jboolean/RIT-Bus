@@ -1,0 +1,21 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="REVClusterMap/ApiDefinition.cs">
+    <Files>
+      <File FileName="RITNow/BusStopMapViewController.cs" Line="32" Column="5" />
+      <File FileName="RITNow/gtfs/BusDB_GTFS_SQL.cs" Line="60" Column="52" />
+      <File FileName="REVClusterMap/ApiDefinition.cs" Line="19" Column="27" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/julianboilen/Dropbox/mono_workspace/RIT Bus/RITNow/gtfs/BusDB_GTFS.cs" line="43" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0D4BF4C1-1928-41EA-8CD0-3AA9312D4C01}</ProjectGuid>
+    <ProjectTypeGuids>{6BC8ED88-2882-458C-8E55-DFD12B67127B};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>RITNow</RootNamespace>
+    <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
+    <AssemblyName>RITNow</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchProfiling>true</MtouchProfiling>
+    <MtouchLink>None</MtouchLink>
+    <MtouchArch>ARMv7</MtouchArch>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhoneSimulator\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <MtouchLink>None</MtouchLink>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\iPhone\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+    <MtouchDebug>true</MtouchDebug>
+    <MtouchProfiling>true</MtouchProfiling>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Developer</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\Ad-Hoc</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <BuildIpa>true</BuildIpa>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'AppStore|iPhone' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\iPhone\AppStore</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <CodesignKey>iPhone Distribution</CodesignKey>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="monotouch" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="MonoTouch.NUnitLite" />
+    <Reference Include="MonoTouch.Dialog-1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Info.plist" />
+    <None Include="data\RGRTA_gtfs\routes.txt" />
+    <None Include="data\RGRTA_gtfs\fare_rules.txt" />
+    <None Include="data\RGRTA_gtfs\fare_attributes.txt" />
+    <None Include="data\RGRTA_gtfs\shapes.txt" />
+    <None Include="data\RGRTA_gtfs\stop_times.txt" />
+    <None Include="data\RGRTA_gtfs\calendar.txt" />
+    <None Include="data\RGRTA_gtfs\calendar_dates.txt" />
+    <None Include="data\RGRTA_gtfs\trips.txt" />
+    <None Include="data\RGRTA_gtfs\stops.txt" />
+    <None Include="data\RGRTA_gtfs\agency.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AppDelegate.cs" />
+    <Compile Include="BusCellView.designer.cs">
+      <DependentUpon>BusCellView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="arrivals\ArrivalEvent.cs" />
+    <Compile Include="arrivals\ArrivalMonitor.cs" />
+    <Compile Include="arrivals\LiveArrivalFetcher.cs" />
+    <Compile Include="BusCellView.cs" />
+    <Compile Include="arrivals\BusTableModel.cs" />
+    <Compile Include="UserPreferences.cs" />
+    <Compile Include="StopListTableViewSource.cs" />
+    <Compile Include="SelectStopViewController.cs" />
+    <Compile Include="SelectStopViewController.designer.cs">
+      <DependentUpon>SelectStopViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatePickerView.cs" />
+    <Compile Include="DatePickerView.designer.cs">
+      <DependentUpon>DatePickerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainBusScreenViewController.cs" />
+    <Compile Include="MainBusScreenViewController.designer.cs">
+      <DependentUpon>MainBusScreenViewController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BusCellView2.cs" />
+    <Compile Include="BusCellView2.designer.cs">
+      <DependentUpon>BusCellView2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArrivalListTableViewSource.cs" />
+    <Compile Include="arrivals\Arrival.cs" />
+    <Compile Include="arrivals\BusRoute.cs" />
+    <Compile Include="arrivals\BusStop.cs" />
+    <Compile Include="arrivals\LocationComparer.cs" />
+    <Compile Include="arrivals\BusDB.cs" />
+    <Compile Include="gtfs\BusDB_GTFS_SQL.cs" />
+    <Compile Include="gtfs\SQLite.cs" />
+    <Compile Include="BusStopMapViewController.cs" />
+    <Compile Include="BusStopMapViewController.designer.cs">
+      <DependentUpon>BusStopMapViewController.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="MainStoryboard.storyboard" />
+    <InterfaceDefinition Include="DatePickerView.xib" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="data\" />
+    <Folder Include="arrivals\" />
+    <Folder Include="images\" />
+    <Folder Include="fonts\" />
+    <Folder Include="gtfs\" />
+    <Folder Include="data\RGRTA_gtfs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="data\Index.xml" />
+    <Content Include="data\Calendar.xml" />
+    <Content Include="arrivals\viewstate.txt" />
+    <Content Include="viewstate.txt" />
+    <Content Include="data\Route 00 to RIT Inn-1.xml" />
+    <Content Include="images\mainBackground%402x.png" />
+    <Content Include="images\busCellBackground%402x.png" />
+    <Content Include="images\liveIndicator%402x.png" />
+    <Content Include="fonts\citaro_voor_dubbele_hoogte_breed.ttf" />
+    <Content Include="fonts\DOTSPECI.TTF" />
+    <Content Include="images\lightDisclosure%402x.png" />
+    <Content Include="images\lightDisclosure.png" />
+    <Content Include="images\clockForButton%402x.png" />
+    <Content Include="images\clockForButton.png" />
+    <Content Include="images\borderPixel.png" />
+    <Content Include="data\Route 28 to Colony-1.xml" />
+    <Content Include="data\RGRTA.sqlite" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Downloads\HtmlAgilityPackMT\HtmlAgilityMT.csproj">
+      <Project>{033101DD-E97B-454D-BD60-7D1982548DE0}</Project>
+      <Name>HtmlAgilityMT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LumenWorksForiPhone\LumenWorks.Framework.IO.csproj">
+      <Project>{5B7F7128-7FC7-4E24-BD5F-CBF51187A0FB}</Project>
+      <Name>LumenWorks.Framework.IO</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

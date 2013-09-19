@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn-ritbus/!svn/ver/24/RITNow/RITNow/gtfs
+END
+BusDB_GTFS_SQL.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn-ritbus/!svn/ver/24/RITNow/RITNow/gtfs/BusDB_GTFS_SQL.cs
+END
+SQLite.cs
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn-ritbus/!svn/ver/19/RITNow/RITNow/gtfs/SQLite.cs
+END
+BusDB_GTFS.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn-ritbus/!svn/ver/23/RITNow/RITNow/gtfs/BusDB_GTFS.cs
+END

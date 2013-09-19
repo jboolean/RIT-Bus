@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<RouteIndex>
+	<!--All destinations-->
+	<Destinations>
+		<Destination stopId="3382">
+			<Name>Colony Manor</Name>
+			<Location lat="43.083023" lon="-77.658421"/>
+			<BusRoute number="28" fullName="Route 28 to Colony"/>
+			<BusRoute number="28" fullName="Route 00 to RIT Inn"/>
+		</Destination>
+		
+	</Destinations>
+	<!--Define individual routes. Keep as much data in route file as possible -->
+</RouteIndex>

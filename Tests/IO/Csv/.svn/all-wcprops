@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn-ritbus/!svn/ver/17/RITNow/Tests/IO/Csv
+END
+CsvReaderTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn-ritbus/!svn/ver/17/RITNow/Tests/IO/Csv/CsvReaderTest.cs
+END
+CsvReaderIDataReaderTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn-ritbus/!svn/ver/17/RITNow/Tests/IO/Csv/CsvReaderIDataReaderTest.cs
+END
+CsvReaderMalformedTest.cs
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn-ritbus/!svn/ver/17/RITNow/Tests/IO/Csv/CsvReaderMalformedTest.cs
+END
+CsvReaderSampleData.cs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn-ritbus/!svn/ver/17/RITNow/Tests/IO/Csv/CsvReaderSampleData.cs
+END

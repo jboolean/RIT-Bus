@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn-ritbus/!svn/ver/24/RITNow/RITNow/arrivals
+END
+BusDB.cs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn-ritbus/!svn/ver/14/RITNow/RITNow/arrivals/BusDB.cs
+END
+BusStop.cs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn-ritbus/!svn/ver/9/RITNow/RITNow/arrivals/BusStop.cs
+END
+Arrival.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn-ritbus/!svn/ver/21/RITNow/RITNow/arrivals/Arrival.cs
+END
+LiveArrivalFetcher.cs
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn-ritbus/!svn/ver/24/RITNow/RITNow/arrivals/LiveArrivalFetcher.cs
+END
+LocationComparer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn-ritbus/!svn/ver/9/RITNow/RITNow/arrivals/LocationComparer.cs
+END
+ArrivalEvent.cs
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn-ritbus/!svn/ver/2/RITNow/RITNow/arrivals/ArrivalEvent.cs
+END
+BusTableModel.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn-ritbus/!svn/ver/23/RITNow/RITNow/arrivals/BusTableModel.cs
+END
+viewstate.txt
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn-ritbus/!svn/ver/2/RITNow/RITNow/arrivals/viewstate.txt
+END
+ArrivalMonitor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn-ritbus/!svn/ver/23/RITNow/RITNow/arrivals/ArrivalMonitor.cs
+END
+BusRoute.cs
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn-ritbus/!svn/ver/21/RITNow/RITNow/arrivals/BusRoute.cs
+END
+ArrivalBundle.cs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn-ritbus/!svn/ver/24/RITNow/RITNow/arrivals/ArrivalBundle.cs
+END

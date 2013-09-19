@@ -1,0 +1,5 @@
+have an index file listing buses and their destinations and the files which define them
+
+also define stops and their physical locations thre
+
+bus definition files define a physical bus (there may be more than one if multiple buses serve the route). list the times at each stop and schedules for different days of the week / holidays. 

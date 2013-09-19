@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<BusRoute>
+	<RouteNumber>28</RouteNumber>
+	<RouteName>Colony Manor / Gleason Circle</RouteName>
+	<MetaData>
+		<Updated>2012-12-09T17:00:00</Updated>
+	</MetaData>
+	<ActiveDays>
+		<Mondays>true</Mondays>
+		<Tuesdays>1</Tuesdays>
+		<Wednesdays>1</Wednesdays>
+		<Thursdays>1</Thursdays>
+		<Fridays>1</Fridays>
+		<Saturdays></Saturdays>
+		<Sundays>0</Sundays>
+		<Weekdays>1</Weekdays>
+		<Exception></Exception>
+		<Addition></Addition>
+		<Holidays>0</Holidays>
+	</ActiveDays>
+	<Timetable>
+	<!--should be in order-->
+		<Stop>
+			<StopId>3382</StopId>
+			<Time>23:59:59</Time>
+		</Stop>
+	</Timetable>
+</BusRoute>
